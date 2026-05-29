@@ -24,8 +24,6 @@ Dự án bao gồm:
 ## Cách chạy
 
 ### 1. đúng file
-
-
 cd cf03-secret-leak
 
 ### 2. Biên dịch chương trình
@@ -63,5 +61,3 @@ API_KEY=sk_secure_987654321
 * Sử dụng biến môi trường hoặc file .env.
 * Thêm .env vào .gitignore.
 * Sử dụng công cụ quét secret trước khi push code lên GitHub.
-
-
