@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CF03 - Rò Rỉ Secret GitHub / Lộ API Key
 
 ## Mô tả
@@ -25,41 +25,31 @@ Dự án bao gồm:
 
 ### 1. đúng file
 
-```bash
+
 cd cf03-secret-leak
-```
 
 ### 2. Biên dịch chương trình
 
-```bash
 javac src/Main.java src/SecretScanner.java src/SecretScannerGUI.java
-```
+
 
 ### 3. Chạy bản Console
 
-```bash
 java -cp src Main
-```
 
 ### 4. Chạy bản Giao diện (GUI)
 
-```bash
 java -cp src SecretScannerGUI
-```
 
 ## Demo
 
 ### API Key bị hardcode (không an toàn)
 
-```java
 String api = "sk_live_SECRET_123456";
-```
 
 ### API Key lưu trong file .env (an toàn hơn)
 
-```env
 API_KEY=sk_secure_987654321
-```
 
 ### Kết quả
 
@@ -73,7 +63,5 @@ API_KEY=sk_secure_987654321
 * Sử dụng biến môi trường hoặc file .env.
 * Thêm .env vào .gitignore.
 * Sử dụng công cụ quét secret trước khi push code lên GitHub.
-=======
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EKjMbdn6)
-Mô tả đề tài, công cụ, cách chạy demo, tài khoản giả lập nếu có.
->>>>>>> b8807541e09d4d0d890f14ef58c75b1d43fee05e
+
+
